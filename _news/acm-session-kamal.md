@@ -13,9 +13,9 @@ I had the honor of leading a session titled <b>"Moving from notebooks to py file
 
 <b>Moments from the session:</b>
 
-<img src="/assets/files/iith/semester-4/acm/1.jpg">
+<img src="/assets/files/iith/semester-4/acm/9.jpg" width="1000px">
 
-<img src="/assets/files/iith/semester-4/acm/2.jpg">
+<img src="/assets/files/iith/semester-4/acm/14.jpg" width="1000px">
 
 <br>
 

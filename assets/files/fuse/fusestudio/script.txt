@@ -1,0 +1,59 @@
+﻿Slide #1
+---
+Welcome to Computer Science for Artificial Intelligence module. 
+
+
+
+
+
+
+
+
+Slide #2
+---
+Before we dive into Artificial Intelligence and Machine Learning course, we must develop a basic understanding of computer systems and its related technology which makes up the backbone of modern AI Systems.
+
+
+
+
+Slide #3
+---
+Artificial Intelligence and computing are inseparable. So to get a deeper insight into how things work, we should not regard computers as a black box that only executes some code. It’s good to acquire some understanding of a computer system’s functional components, their characteristics, their performance, and their interactions.
+
+
+
+
+Slide #4
+---
+We'll cover the following contents in this module:
+
+
+
+
+(click)
+1. Digital Information and Logic where you'll get a general understanding of how data of different forms are represented digitally and how they are processed.
+
+
+
+
+(click)
+2. Basics of Computer Organization and Architecture where you'll examine the major components of a computer and their interconnections, both with each other and the outside world.
+
+
+
+
+(click)
+3. Basics of Linux Operating System where you'll study the core functionality of operating systems. 
+
+
+
+
+(click)
+4. And Fundamentals of Computer Network where you'll learn how the world wide web works and get a unified overview of the broad field of computer communications.
+
+
+
+
+Slide #5
+---
+This module also underpins other courses of Fuse.AI such as Python Programming, Machine Learning and Software Engineering. Getting a stronghold of the fundamental concepts, will help to kick start your journey in the field of Artificial Intelligence.
