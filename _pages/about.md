@@ -2,24 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: "'Discipline Equals Freedom'"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>MTech(TA) CSE'023, </p>
+    <p><a href='https://iith.ac.in/'>IIT Hyderabad</a></p>
+    <p>Hyderabad, Telangana, India</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am presently enrolled in a two-year Master of Technology (MTech) program offered by the Department of [Computer Science and Engineering Department](https://cse.iith.ac.in/) at the [Indian Institute of Technology Hyderabad (IITH)](https://iith.ac.in/). I am working under the supervision of [Dr. Maunendra Sankar Desarkar](https://people.iith.ac.in/maunendra/index.html) as part of my research endeavors. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to joining IITH, I completed my Bachelor's degree in Computer Engineering from [Kathmandu University](https://ku.edu.np/) in Dhulikhel, Nepal.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+In my academic pursuits, I am currently engaged in two primary research projects. 
+The first of these projects involves the development of a heuristic-based recommendation engine that is designed to serve as a job recommendation platform, [Swarability](http://swarajability.org/), catering specifically to differently abled individuals. The primary aim of this platform is to provide a range of odd jobs that are tailored to the individual's physical abilities, with the end goal of enhancing their employment opportunities and overall quality of life.
+
+My second research project is focused on conditional language generation for open-domain dialogue systems, with the ultimate goal of enhancing machine-human communication by imbuing these systems with human-like communication abilities. For the same, My approach involves integrating external knowledge sources to instill common sense knowledge and reasoning capabilities in the dialogue systems.
