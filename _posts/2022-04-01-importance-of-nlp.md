@@ -5,6 +5,7 @@ date:   2022-04-01 16:40:16
 description: importance of nlp
 tags: nlp nlu
 categories: nlp
+disqus_comments: true
 ---
 Natural language processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and human languages. It has become increasingly important in recent years as the world becomes more digitized and the need for computers to understand and process human language increases.
 
