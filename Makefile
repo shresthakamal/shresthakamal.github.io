@@ -11,6 +11,6 @@ serve:
 	@echo "Serving..."
 	bundle exec jekyll serve --lsi
 
-load:
+start:
 	make build
 	make serve

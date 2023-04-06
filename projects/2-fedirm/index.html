@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Federated Semi-supervised Medical Image Classification via Inter-client Relation Matching | Kamal M. Shrestha</title>
+    <meta name="author" content="Kamal M. Shrestha">
+    <meta name="description" content="As a partial fulfillment for Visual Computing, CS6450">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://shresthakamal.github.io/projects/2-fedirm/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Kamal </span>M. Shrestha</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">teaching</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/publications/">publications</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/projects/">projects</a>
+                </div>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Federated Semi-supervised Medical Image Classification via Inter-client Relation Matching</h1>
+            <p class="post-description">As a partial fulfillment for Visual Computing, CS6450</p>
+          </header>
+
+          <article>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/files/iith/projects/fedirm/fedirm-1-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/files/iith/projects/fedirm/fedirm-1-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/files/iith/projects/fedirm/fedirm-1-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/files/iith/projects/fedirm/fedirm-1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="compare" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Quantitative Comparison between different frameworks
+</div>
+
+<p>This paper deals with a very serious yet very common problem of intracranial hemorrhage detection using CT scans as input image. That is in plain terms, this paper tries to detect brain attacks also known as brain strokes by looking at their CT scans. It is estimated that one  person in the world dies from stroke every 10 seconds. Stroke causes the death of 6.2 million peoples every year worldwide and it is predicted that there will be about 3.3 million cases of stroke in India itself by 2030. It is very surprising to know that it kills more people than HIV, Tuberculosis, and Malaria combined, with a fact that it is the second most common cause of mortality and third most common cause of disability in the world.</p>
+
+<p>For the same, Medical institutions across the world have started collaborating to develop a model with the same detection objectives. Medical information are sensitive and private to share but unfortunately the any machine learning model needs a lot of information to learn. So, we have a problem here.</p>
+
+<p>Talking about the traditional approaches, 
+Federated learning (FL) has emerged as a privacy-preserving solution for this, which allows to learn from distributed data sources by aggregating the locally learned model parameters without exchanging the sensitive health data.
+The parameters for the models are learned at the client location using the data that are available to them. Once, the model learns, the learned parameters of the models are the shared back to the central server. 
+Such parameters from N different distributed clients are aggregated to get the global parameters which is now used for making inferences.</p>
+
+<p>A crucial point to note in this federated setting is that, the local learning at the client side is based on the Supervised setting meaning there is a definite class label associated with all the present CT scans indicating the presence or absence of intracranial hemorrhage.</p>
+
+<p>But in practical scenarios annotations of such scans is a very expensive and time consuming task which is not always possible. Because of the same there are a huge number of clients that cannot contribute to a proper learning of the model.</p>
+
+<p>Hence this paper explores  semi supervised approach to utilize unlabelled scanned images or unlabelled clients to train the model for better learning. A naive solution is to simply integrate the off-the-rack semi-supervised learning (SSL) methods onto the federated learning paradigm.</p>
+
+<p>But semi supervised setting relies  heavily on the assumption that the labeled data is accessible to provide necessary assistance for the learning from unlabeled data which in our scenarios is not achievable as we have clients that are entirely unlabelled.</p>
+
+<p>To elaborate on the same, in a supervised setting a model learned from labelled images is used to predict the pseudo labels for unlabelled clients. Then the same model is trained using those pseudo labels, successfully making the use of the unlabelled data.Now talking about the federated learning paradigm,</p>
+
+<p>Federated learning (FL) has emerged as a privacy-preserving solution for this, which allows to learn from distributed data sources by aggregating the locally learned model parameters without exchanging the sensitive health data.</p>
+
+<p>The proposed model has some sort of a teacher model that learns from the labelled clients in supervised setting and uses his knowledge of the task in hand to teach a student model at the unlabelled setting to discriminate between CT scans having hemorrhage or not. This way a combined model from both of them will be able to use data be it either labelled or unlabelled mitigating any scarcity or distribution of medical images.</p>
+
+<p>In our training scenarios, the labelled clients are completely separate from the unlabelled ones.
+Now the question becomes how to build an interaction system between the learnings at the  labeled clients and undirected learnings at the  unlabeled clients, or how to share the knowledge between the two clients given the challenging constraint of data decentralization between multiple clients.</p>
+
+<p>Hence the proposed approach,</p>
+
+<p>Following the same trend of thought, This paper explores  a novel approach of inter client relation matching  in which the learnings at labelled client are distilled down to a single representation matrix called the disease relation matrix which is used as a pseudo label for training at the unlabelled client side. This approach connects the learning of the labelled client across the unlabelled clients promoting the task of discrimination or classification using the unlabelled samples. In simple words labelled clients assists the unlabelled clients to learn the classification problem properly.</p>
+
+<div class="row">
+    <div class="col-sm-12 clearfix">
+        <ul class="nav nav-pills">
+            <a href="https://miccai2021.org/openaccess/paperlinks/2021/09/01/192-Paper0299.html" rel="external nofollow noopener" target="_blank"><button type="button" class="btn btn-outline-primary">PAPER</button></a>
+            <a href="https://github.com/liuquande/FedIRM" rel="external nofollow noopener" target="_blank"><button type="button" class="btn btn-outline-primary">OFFICIAL IMPLEMENTATION</button></a>
+            <a href="https://github.com/shresthakamal/fedIRM" rel="external nofollow noopener" target="_blank"><button type="button" class="btn btn-outline-primary">MODIFICATION</button></a>
+            <a href="/assets/files/iith/projects/fedirm/fedirm-2.pdf"><button type="button" class="btn btn-outline-primary">PRESENTATION 1</button></a>
+            <a href="/assets/files/iith/projects/fedirm/fedirm-3.pdf"><button type="button" class="btn btn-outline-primary">PRESENTATION 2</button></a>
+        </ul>
+    </div>
+</div>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Kamal M. Shrestha. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+Last updated: April 06, 2023.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1NXC136FW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K1NXC136FW');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
