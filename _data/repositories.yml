@@ -3,3 +3,6 @@ github_users:
 
 github_repos:
   - shresthakamal/ml-project-cookiecutter-template
+  - shresthakamal/Emotion-Detection
+  - shresthakamal/Customer-Churn-Prediction
+  - shresthakamal/secure-chat-app

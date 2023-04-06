@@ -2,7 +2,7 @@
 layout: page
 title: "Obstacle Avoiding Car using Ultrasonic Sound Sensors"
 description: "Designed and created an obstacle avoiding self-driving car that uses ultrasonic sound sensors directed motor modules for detection, navigation, and avoidance using Arduino."
-img: assets/files/kathmandu-university/projects/obstacle/obstacle.png
+img: assets/files/kathmandu-university/projects/obstacle/3.jpg
 importance: 1
 category: arduino
 ---
