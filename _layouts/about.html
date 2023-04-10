@@ -40,13 +40,21 @@ layout: default
             {{ content }}
           </div>
 
+          <span style="display: block; margin-bottom: 2.5em"></span>
+
+
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2>news<sup><a href="{{ '/news/' | relative_url }}" style="color: inherit;font-size: small;">[archives]</a></sup></h2>
             {%- include news.html %}
           {%- endif %}
+          <span style="display: block; margin-bottom: 1em"></span>
+          
 
-          <br>
+          
+          
+          <span style="display: block; margin-bottom: 3em"></span>
+
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
