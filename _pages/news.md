@@ -21,7 +21,7 @@ nav_order: 3
       {% for item in news limit: 1000 %} 
         <tr>
           <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-          <td>
+          <td style="text-align:justify">
             {% if item.inline -%} 
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {%- else -%} 

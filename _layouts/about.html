@@ -40,15 +40,19 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- {%- include carousel.html %} -->
+
+          <span style="display: block; margin-bottom: 1em"></span>
+
+
           <!-- News -->
           {% if page.news -%}
             <h2>news<sup><a href="{{ '/news/' | relative_url }}" style="color: inherit;font-size: small;">[archives]</a></sup></h2>
             {%- include news.html %}
           {%- endif %}
-          <span style="display: block; margin-bottom: 1em"></span>
           
-
           
+            
           
           <span style="display: block; margin-bottom: 3em"></span>
 
