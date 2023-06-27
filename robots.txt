@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://shresthakamal.github.io/sitemap.xml
+Sitemap: https://shresthakamal.com.np/sitemap.xml
