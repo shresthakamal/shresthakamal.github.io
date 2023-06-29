@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "'Discipline Equals Freedom'"
+subtitle: "I live by 'Discipline Equals Freedom'"
 
 profile:
   align: right
@@ -27,7 +27,7 @@ Prior to joining IITH, I completed my Bachelor's degree in Computer Engineering 
 
 <p style="text-align:justify;">
 In my academic pursuits, I am currently engaged in two primary research projects. 
-The first of these projects involves the development of <b>a heuristic-based recommendation engine</b> that is designed to serve as a job recommendation platform, <a href="http://swarajability.org/">Swarability</a>, catering specifically to differently abled individuals. The primary aim of this platform is to provide a range of odd jobs that are tailored to the individual's physical abilities, with the end goal of enhancing their employment opportunities and overall quality of life.
+The first of these projects involves the development of <b>a heuristic-based and transformer based learning recommendation engine</b> that is designed to serve as a job recommendation platform, <a href="http://swarajability.org/">Swarability</a>, catering specifically to differently abled individuals. The primary aim of this platform is to provide a range of odd jobs that are tailored to the individual's physical abilities, with the end goal of enhancing their employment opportunities and overall quality of life.
 </p>
 <p style="text-align:justify;">
 My second research project is focused on <b>conditional language generation for open-domain dialogue systems</b>, with the ultimate goal of enhancing machine-human communication by imbuing these systems with human-like communication abilities. For the same, My approach involves integrating external knowledge sources to instill common sense knowledge and reasoning capabilities in the dialogue systems.
