@@ -11,4 +11,6 @@ children:
       permalink: /experience/
     - title: recommendations
       permalink: /recommendations/
+    # - title: cv
+    #   permalink: /cv/
 ---
