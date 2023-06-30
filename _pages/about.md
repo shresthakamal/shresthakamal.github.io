@@ -15,7 +15,7 @@ profile:
     <hr>
     <p>BTech CSE'020 (92.30 %), </p>
     <p><a href='https://ku.edu.np/'>Kathmandu University</a></p>
-    <p>Dhulikhel, Kavrepalanchowk, Nepal</p>
+    <p>Dhulikhel, Kavre, Nepal</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
