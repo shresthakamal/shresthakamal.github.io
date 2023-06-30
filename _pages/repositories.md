@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description:
+description: ""
 nav: false
 nav_order: 3
 ---

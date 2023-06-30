@@ -2,13 +2,13 @@
 layout: page
 permalink: /experience/
 title: experience
-description: Professional Experience
+description:  ""
 nav: false
-nav_order: 1
+nav_order: 4
 ---
 
 
-## Computer Science Instructor _<sub style="font-size:10px">[[Experience Letter]](/assets/files/fuse/experience_teaching.pdf)</sub>_
+## 1. Computer Science Instructor _<sub style="font-size:10px">[[Experience Letter]](/assets/files/fuse/experience_teaching.pdf)</sub>_
 
 1. [Q.I. Roberts Jr. - Sr. High School](https://www.putnamschools.org/o/qi-roberts) · <sub>[**Aug 2021 - Dec 2021 · 5 mos**]</sub><br>
 <sub>Taught "Introduction to Artificial Intelligence" for Students of Grade 11-12</sub>
@@ -28,7 +28,7 @@ The course included the following topics:
 
 ---
 
-## Machine Learning Engineer Associate _<sub style="font-size:10px">[[Experience Letter]](/assets/files/fuse/experience_fuse.pdf)</sub>_
+## 2. Machine Learning Engineer Associate _<sub style="font-size:10px">[[Experience Letter]](/assets/files/fuse/experience_fuse.pdf)</sub>_
 
 
 <sub>**Feb 2021 - Dec 2021 · 11 mos**</sub>
@@ -44,7 +44,7 @@ The course included the following topics:
 
 ---
 
-## Machine Learning Engineer Associate Trainee
+## 3. Machine Learning Engineer Associate Trainee
 
 <sub>**Jul 2020 - Feb 2021 · 8 mos**</sub>
 

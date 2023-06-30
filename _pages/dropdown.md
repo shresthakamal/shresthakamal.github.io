@@ -7,7 +7,8 @@ dropdown: true
 children: 
     - title: repositories
       permalink: /repositories/
-    # - title: divider
-    # - title: cv
-    #   permalink: /cv/
+    - title: experience
+      permalink: /experience/
+    - title: recommendations
+      permalink: /recommendations/
 ---

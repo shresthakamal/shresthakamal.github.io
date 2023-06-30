@@ -51,6 +51,7 @@
                   {%- endif -%}
                 </a>
               </li>
+
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -61,6 +62,7 @@
                 </a>
               </li>
               {%- endif %}
+
 
               <!-- Gallery -->
               <li class="nav-item {% if page.url contains 'gallery' %}active{% endif %}">
@@ -90,7 +92,6 @@
                   {% endfor %}
                 </div>
 
-                
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
