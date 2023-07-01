@@ -69,7 +69,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: flex;
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 10%;
     transform: translate(-50%, -50%);
     z-index: -1;
     pointer-events: none;
