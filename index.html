@@ -203,10 +203,55 @@ I have recently completed my two-year Master of Technology (MTech) program offer
 <p><span style="display: block; margin-bottom: 2em"></span></p>
 
 <!-- Blockquote -->
+<style>
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
 
-<blockquote>
-  <h5>Please find my resume <a href="/assets/pdf/resume.pdf">here</a>.</h5>
-</blockquote>
+.hover-image {
+    visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-image {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/* Change width and height to scale images */
+    width: 90vw;
+    height: 90vh;
+}
+
+.hover-image img {
+    max-width: 20% !important;
+    max-height: 20% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+}
+</style>
+
+<div class="hover-title">
+  <blockquote>
+    <h5>Please find my resume <a href="/assets/pdf/resume.pdf">here</a>.</h5>
+  </blockquote>
+</div>
+<div class="hover-image"><img src="/assets/img/resume.jpg"></div>
+
 
           </div>
 
@@ -434,7 +479,7 @@ I have recently completed my two-year Master of Technology (MTech) program offer
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Kamal  Shrestha (कमल श्रेष्ठ). Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
-Last updated: June 30, 2023.
+Last updated: July 01, 2023.
       </div>
     </footer>
 
