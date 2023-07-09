@@ -91,12 +91,12 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }
 </style>
 
-<div class="hover-title">
-  <blockquote>
-    <h5>Please find my resume <a href="{{site.cv}}">here</a>.</h5>
-  </blockquote>
-</div>
+<!-- <!-- <div class="hover-title"> -->
+<blockquote>
+<h5>Please find my resume <a href="{{site.cv}}">here</a>.</h5>
+</blockquote>
+<!-- </div>
 <div class="hover-image"><img src="/assets/img/resume.jpg"></div>
-
+ -->
 
 
