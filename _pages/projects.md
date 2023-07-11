@@ -23,6 +23,7 @@ horizontal: true
     <div class="row row-cols-12">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
+      <span style="display: block; margin-bottom: 2em"></span>
     {%- endfor %}
     </div>
   </div>
