@@ -46,7 +46,7 @@ In my spare time, I enjoy reading, cooking and travelling.</p>
 <li>Possess a comprehensive theoretical and practical foundation in machine learning and natural language processing, combined with hands-on experience in research and experimental design methodologies.</li>
 <span style="display: block; margin-bottom: 0.5em"></span>
 <li>Proficient in executing the deep learning pipeline encompassing various stages such as data analysis, data
-cleaning, pre-processing, model design, training, and model evaluation, primarily utilizing PyTorch, Scikitlearn (Sklearn), and other scientific Python libraries to achieve optimal results.</li>
+cleaning, pre-processing, model design, training, and model evaluation, primarily utilizing PyTorch, Scikitlearn (Sklearn), OpenCV, and other scientific Python libraries to achieve optimal results.</li>
 <span style="display: block; margin-bottom: 0.5em"></span>
 <li>Demonstrate excellent teamwork, communication, and writing skills honed through previous industry experience, research publications, poster presentations, and teaching engagements</li>
 <span style="display: block; margin-bottom: 0.5em"></span>
