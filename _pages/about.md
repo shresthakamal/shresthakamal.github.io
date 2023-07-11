@@ -42,14 +42,14 @@ cleaning, pre-processing, model design, training, and model evaluation, primaril
 <span style="display: block; margin-bottom: 0.5em"></span>
 <li><b><u>Research Interests</u></b>: Intersection of applied NLP, DL, and Classical ML Techniques</li>
 <span style="display: block; margin-bottom: 0.5em"></span>
-<li><b><u>Worked on projects like</u>:</b>
+<li><b>Previous Projects:</b>
 
 <ol style="padding-left:25px; padding-top:10px">
-<li> <a href="/news/thesis-defence-stage-3">Inclusivity in Job Recommendation: Recommending Jobs for Differently-Abled Individuals through Feature and Transformer-based Approaches</a></li>
-<li><a href="https://dl.acm.org/doi/10.1145/3501247.3531579">Hostility Detection in Online Hindi-English Code-Mixed Conversations</a></li>
-<li><a href="https://shresthakamal.com.np/projects/1-zerodce/">Zero Reference Low-Light Image Enhancement with Attention</a></li>
-<li><a href="https://shresthakamal.com.np/projects/2-fedirm/">Federated Semi-supervised Medical Image Classification via Inter-client Relation Matching</a></li>
-<li><a href="http://journal.pmis.du.ac.bd/all_document/6241a56f31f0a2.%20A%20Machine%20Learning%20Approach.pdf">A Machine Learning Approach to Identify Fake News</a></li>
+<li>Inclusivity in Job Recommendation: Recommending Jobs for Differently-Abled Individuals through Feature and Transformer-based Approaches<a href="/news/thesis-defence-stage-3"><sub>[announcement]</sub></a></li>
+<li>Hostility Detection in Online Hindi-English Code-Mixed Conversations<a href="https://dl.acm.org/doi/10.1145/3501247.3531579"><sub>[Paper]</sub></a></li>
+<li>Zero Reference Low-Light Image Enhancement with Attention<a href="https://shresthakamal.com.np/projects/1-zerodce/"><sub>[Project]</sub></a></li>
+<li>Federated Semi-supervised Medical Image Classification via Inter-client Relation Matching<a href="https://shresthakamal.com.np/projects/2-fedirm/"><sub>[Project]</sub></a></li>
+<li>A Machine Learning Approach to Identify Fake News<a href="http://journal.pmis.du.ac.bd/all_document/6241a56f31f0a2.%20A%20Machine%20Learning%20Approach.pdf"><sub>[Paper]</sub></a></li>
 </ol>
 
 

@@ -7,7 +7,7 @@ related_posts: false
 ---
 
 <p style="text-align:justify">
-I am thrilled to announce to my LinkedIn family that I have recently completed my final thesis presentation [_more details on the way_], successfully defending my Master of Technology Degree in Computer Engineering from the prestigious <a href="https://iith.ac.in">Indian Institute of Technology, Hyderabad</a>.
+I am thrilled to announce that I have recently completed my final thesis presentation [_more details on the way_], successfully defending my Master of Technology Degree in Computer Engineering from the prestigious <a href="https://iith.ac.in">Indian Institute of Technology, Hyderabad</a>.
 
 My journey at IITH has been nothing short of incredible. I had the opportunity to meet and forge lifelong friendships with amazing individuals. I am immensely grateful for the unwavering support and guidance I received from my professors, especially my thesis supervisor <a href="https://people.iith.ac.in/maunendra/">Prof. Dr. Maunendra Sankar Desarkar</a>, throughout my academic pursuit.
 
