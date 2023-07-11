@@ -46,57 +46,7 @@ In my academic pursuits, I was involved in multiple research projects like:
 
 
 
-<span style="display: block; margin-bottom: 2em"></span>
-
-<!-- Blockquote -->
-<style>
-.hover-title {
-    display: inline;
-    pointer-events: auto;
-    cursor: pointer;
-}
-
-.hover-image {
-    visibility: hidden;
-}
-
-body:not(.mobile) .hover-title:hover + .hover-image {
-    visibility: visible;
-    pointer-events: none;
-}
-
-.hover-image {
-    display: flex;
-    position: fixed;
-    top: 50%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    pointer-events: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-/* Change width and height to scale images */
-    width: 90vw;
-    height: 90vh;
-}
-
-.hover-image img {
-    max-width: 20% !important;
-    max-height: 20% !important;
-    width: auto !important;
-    height: auto !important;
-    margin-bottom: 0;
-}
-</style>
-
-<!-- <!-- <div class="hover-title"> -->
 <blockquote>
 <h5>Please find my resume <a href="{{site.cv}}">here</a>.</h5>
 </blockquote>
-<!-- </div>
-<div class="hover-image"><img src="/assets/img/resume.jpg"></div>
- -->
-
 
