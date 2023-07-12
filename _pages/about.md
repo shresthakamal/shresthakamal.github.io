@@ -32,9 +32,9 @@ I have recently completed my two-year Master of Technology (MTech) program offer
 </p>
 
 <p style="text-align:justify;">I received my undergraduate B. Tech in Computer Engineering from <a href="https://ku.edu.np">Kathmandu University (KU)</a> in 2020.
-I has a great time working with Prof. Dr. Prakash Poudyal and Prof. Dr. Bal Krishna Bal at KU.</p>
+I has a great time working with <a href="https://ku.edu.np/contact-detail/25">Prof. Dr. Prakash Poudyal</a> and <a href="https://ku.edu.np/contact-detail/48">Prof. Dr. Bal Krishna Bal</a> at KU.</p>
 
-<p style="text-align:justify;">I have also worked as an Associate Machine Learning Engineer at <a href="https://fusemachines.com">Fusemachines</a>, Nepal for 1.5 years [2020-2021]. </p>
+<p style="text-align:justify;">I have also worked as an Associate Machine Learning Engineer at <a href="https://fusemachines.com">Fusemachines</a>, Nepal for 1.5 years till 2021 under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
 
 <p style="text-align:justify;">
 In my spare time, I enjoy reading, cooking and travelling.</p>
