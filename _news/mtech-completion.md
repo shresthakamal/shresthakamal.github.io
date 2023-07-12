@@ -7,6 +7,7 @@ related_posts: false
 ---
 
 <img src="/assets/img/iith/iith-2.jpg" width="975px">
+<img src="/assets/img/iith/IITH - 1 - 1.jpg" width="975px">
 
 <p style="text-align:justify">
 Today, as I stand on the threshold of completing my post-graduate studies at IIT Hyderabad, I cannot help but feel an overwhelming sense of gratitude. This incredible journey has been filled with numerous challenges and triumphs, and I owe my success to the unwavering support and guidance I received from so many amazing individuals.
@@ -34,15 +35,18 @@ As I prepare to embark on the next chapter of my journey, I want to extend my he
 <br><br>
 Thank you all for being an integral part of my educational journey. I am excited to embrace the future, armed with the knowledge and experiences gained during my time at IIT Hyderabad. I look forward to connecting with you all in the professional sphere and contributing to the growth and progress of our respective fields.
 <br>
-<br>
 
+<img src="/assets/img/Signature.jpeg">
+</p>
 With sincere appreciation,
 <br>
 Kamal Shrestha
+
 <br><br>
-<img src="/assets/img/Signature.jpeg">
-</p>
 
 <img src="/assets/img/iith/iith-1.jpg" width="975px">
 <img src="/assets/img/iith/iith-3.jpeg" width="975px">
 <img src="/assets/img/iith/iith-4.jpeg" width="975px">
+<img src="/assets/img/iith/IITH - 1 - 10.jpg" width="975px">
+<img src="/assets/img/iith/IITH - 1 - 9.jpeg" width="975px">
+<img src="/assets/img/iith/IITH - 1 - 11.jpeg" width="975px">
