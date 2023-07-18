@@ -1,16 +1,22 @@
 ---
 layout: post
 title: MTech Course completion at IIT Hyderabad
-date: 2023-07-15 10:11:00-0400
+date: 2023-07-16 10:11:00-0400
 inline: false
 related_posts: false
 ---
+
+
+<iframe width="975" height="500"
+src="https://www.youtube.com/embed/mUhNtKlaRdk?autoplay=1">
+</iframe>
+
 
 <img src="/assets/img/iith/iith-2.jpg" width="975px">
 <img src="/assets/img/iith/IITH - 1 - 1.jpg" width="975px">
 
 <p style="text-align:justify">
-Today, as I stand on the threshold of completing my post-graduate studies at IIT Hyderabad, I cannot help but feel an overwhelming sense of gratitude. This incredible journey has been filled with numerous challenges and triumphs, and I owe my success to the unwavering support and guidance I received from so many amazing individuals.
+Today, as I stand on the podium of completing my post-graduate studies at IIT Hyderabad, I cannot help but feel an overwhelming sense of gratitude. This incredible journey has been filled with numerous challenges and triumphs, and I owe my success to the unwavering support and guidance I received from so many amazing individuals.
 
 <br><br>
 
