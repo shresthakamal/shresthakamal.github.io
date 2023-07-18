@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MTech Course completion at IIT Hyderabad <sub><a href="https://shresthakamal.com.np/photography/IITH-Convocation.html">[Convocation Images]</a></sub>
+title: MTech Course completion at IIT Hyderabad <a href="https://shresthakamal.com.np/photography/IITH-Convocation.html"><sub>[Convocation Images]</sub></a>
 date: 2023-07-16 10:11:00-0400
 inline: false
 related_posts: false
