@@ -1,12 +1,12 @@
 ---
 layout: post
-title: MTech Course completion at IIT Hyderabad
+title: MTech Course completion at IIT Hyderabad <sub><a href="https://shresthakamal.com.np/photography/IITH-Convocation.html">[Convocation Images]</a></sub>
 date: 2023-07-16 10:11:00-0400
 inline: false
 related_posts: false
 ---
 
-##### IIT Hyderabad Introduction
+##### IIT Hyderabad Introduction [Credit: <a href="https://www.instagram.com/btl_iith/">BTL IITH </a>]
 
 <iframe width="975" height="500"
 src="https://www.youtube.com/embed/mUhNtKlaRdk?autoplay=1">
@@ -14,7 +14,9 @@ src="https://www.youtube.com/embed/mUhNtKlaRdk?autoplay=1">
 
 <br><br>
 
-##### Convocation Degree Distribution
+##### Convocation Degree Distribution, <sub><a href="https://www.youtube.com/watch?v=_rmV-gFjN6o">[Full Video]</a></sub>
+
+
 
 <iframe width="975" height="500"
 src="https://www.youtube.com/embed/eENhrvitcYA">
