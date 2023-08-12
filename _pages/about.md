@@ -9,8 +9,8 @@ profile:
   image: about.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>MTech(TA) CSE'023 (9.06 CGPA), </p>
-    <p><a href='https://iith.ac.in/'>IIT Hyderabad</a></p>
+    <p>MTech(TA) CSE'023 (9.06/10 CGPA), </p>
+    <p><a href='https://iith.ac.in/'>Indian Institute of Technology Hyderabad (IITH) </a></p>
     <p>Hyderabad, Telangana, India</p>
     <hr>
     <p>Associate Machine Learning and Curriculum Engineer </p>
@@ -18,7 +18,7 @@ profile:
     <p>Kathmandu, Nepal</p>
     <hr>
     <p>BTech CSE'020 (92.30 %), </p>
-    <p><a href='https://ku.edu.np/'>Kathmandu University</a></p>
+    <p><a href='https://ku.edu.np/'>Kathmandu University (KU)</a></p>
     <p>Dhulikhel, Kavre, Nepal</p>
 
 news: true  # includes a list of news items
@@ -31,10 +31,12 @@ social: true  # includes social icons at the bottom of the page
 I have recently completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the prestigious<a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my research endeavors. 
 </p>
 
-<p style="text-align:justify;">I received my undergraduate B. Tech in Computer Engineering from <a href="https://ku.edu.np">Kathmandu University (KU)</a> in 2020.
-I has a great time working with <a href="https://ku.edu.np/contact-detail/25">Prof. Dr. Prakash Poudyal</a> and <a href="https://ku.edu.np/contact-detail/48">Prof. Dr. Bal Krishna Bal</a> at KU.</p>
+<p style="text-align:justify;">I have also worked as an Associate Machine Learning Engineer and Curriculum Engineer  at <a href="https://fusemachines.com">Fusemachines</a>, Nepal from July, 2020 till August 2021, under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
 
-<p style="text-align:justify;">I have also worked as an Associate Machine Learning Engineer at <a href="https://fusemachines.com">Fusemachines</a>, Nepal for 1.5 years till 2021 under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
+<p style="text-align:justify;">I received my undergraduate B. Tech in Computer Engineering from <a href="https://ku.edu.np">Kathmandu University (KU)</a> in 2020.
+I had a great time working with <a href="https://ku.edu.np/contact-detail/25">Prof. Dr. Prakash Poudyal</a> and <a href="https://ku.edu.np/contact-detail/48">Prof. Dr. Bal Krishna Bal</a> at KU.</p>
+
+
 
 <p style="text-align:justify;">
 In my spare time, I enjoy reading, cooking and travelling.</p>
@@ -65,7 +67,7 @@ cleaning, pre-processing, model design, training, and model evaluation, primaril
 </ol> -->
 
 
-<span style="display: block; margin-bottom: 2em"></span>
+<span style="display: block; margin-bottom: 3em"></span>
 
 <blockquote style="margin-left:0px">
 <h5>Please find my resume <a href="{{site.cv}}">here</a>.</h5>
