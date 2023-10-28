@@ -28,7 +28,11 @@ social: true  # includes social icons at the bottom of the page
 <span style="display: block; margin-bottom: 2em"></span>
 
 <p style="text-align:justify;">
-I have recently completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the prestigious<a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my research endeavors. 
+
+I am currently working with <a href="https://www.bosch-softwaretechnologies.com/en/index.html">BOSCH Global Software Technology (BGSW)</a> as a Senior Applied Data Scientist since 17th August, 2023. Major part of my work focuses on working on a high-impact project centered on leveraging Large Language Models (LLM) that customize production-generated datasets and introduce interactive agents to streamline workflows, significantly enhancing operational efficiency.
+
+
+I completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the prestigious<a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my research endeavors. 
 </p>
 
 <p style="text-align:justify;">I have also worked as an Associate Machine Learning Engineer and Curriculum Engineer  at <a href="https://fusemachines.com">Fusemachines</a>, Nepal from July, 2020 till August 2021, under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
