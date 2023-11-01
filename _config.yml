@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
+# Encrypt files: pdftk 2.pdf output 2.pdf userpw safedocument
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Kamal
 middle_name: 

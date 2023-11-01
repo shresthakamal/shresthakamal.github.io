@@ -29,13 +29,13 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="text-align:justify;">
 
-I am currently working with <a href="https://www.bosch-softwaretechnologies.com/en/index.html">BOSCH Global Software Technology (BGSW)</a> as a Senior Applied Data Scientist since 17th August, 2023. Major part of my work focuses on working on a high-impact project centered on leveraging Large Language Models (LLM) that customize production-generated datasets and introduce interactive agents to streamline workflows, significantly enhancing operational efficiency.
+I am currently working with <a href="https://www.bosch-softwaretechnologies.com/en/index.html">BOSCH Global Software Technology (BGSW)</a> as a Senior Applied Data Scientist since 17th August, 2023. Major part of my work focuses on working on a high-impact project centered on leveraging Large Language Models (LLM) that customize production-generated datasets and introduce interactive agents to streamline workflows, significantly enhancing operational efficiency.</p>
 
-
-I completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the prestigious<a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my research endeavors. 
+<p style="text-align:justify;">
+I completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the prestigious<a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my thesis research endeavors in collaboration with <a href="https://www.swarajability.org/">Swarajability Platform - India's First Job Portal with AI for Persons with Disabilities</a>. 
 </p>
 
-<p style="text-align:justify;">I have also worked as an Associate Machine Learning Engineer and Curriculum Engineer  at <a href="https://fusemachines.com">Fusemachines</a>, Nepal from July, 2020 till August 2021, under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
+<p style="text-align:justify;">Previously, I have also worked as an Associate Machine Learning Engineer and Curriculum Engineer  at <a href="https://fusemachines.com">Fusemachines</a>, Nepal from July, 2020 till August 2021, under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
 
 <p style="text-align:justify;">I received my undergraduate B. Tech in Computer Engineering from <a href="https://ku.edu.np">Kathmandu University (KU)</a> in 2020.
 I had a great time working with <a href="https://ku.edu.np/contact-detail/25">Prof. Dr. Prakash Poudyal</a> and <a href="https://ku.edu.np/contact-detail/48">Prof. Dr. Bal Krishna Bal</a> at KU.</p>
