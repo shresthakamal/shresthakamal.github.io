@@ -13,7 +13,7 @@
     <title>Cracking WPA2-PSK and analyzing Security of IITH Wi-Fi | Kamal  Shrestha (कमल श्रेष्ठ)</title>
     <meta name="author" content="Kamal  Shrestha (कमल श्रेष्ठ)">
     <meta name="description" content="Cracking WPA2-PSK Passphrase with a password dictionary using airodmp-ng, aireplay-ng and wireshark.">
-    <meta name="keywords" content="machine-learning, deep-learning, recommendation-system, nlp, academic-website">
+    <meta name="keywords" content="natural-language-processing, large-language-models, machine-learning, deep-learning, recommendation-system, nlp, academic-website">
 
 
     <!-- Bootstrap & MDB -->
@@ -37,86 +37,87 @@
     
     <!-- Dark Mode -->
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
 
   </head>
 
   <!-- Body -->
   <body class="fixed-top-nav ">
 
-    <!-- Header -->
-    <header>
+    <!-- Header --><header>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Kamal </span>Shrestha (कमल श्रेष्ठ)</a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Kamal </span>Shrestha (कमल श्रेष्ठ)</a>
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
 
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
-              </li>
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about</a>
+          </li>
 
-              
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blogs</a>
-              </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">blogs</a>
+          </li>
 
-<!-- 
+          <!-- 
               <li class="nav-item ">
                 <a class="nav-link" href="https://shresthakamal.com.np/photography/">gallery</a>
               </li> -->
 
-              
-              <!-- Other pages -->
-              <li class="nav-item ">
 
-                <a class="nav-link" href="/publications/">publications</a>
-              </li>
-              <li class="nav-item ">
+          <!-- Other pages -->
+          <li class="nav-item ">
 
-                <a class="nav-link" href="/projects/">projects</a>
-              </li>
-              <li class="nav-item ">
+            <a class="nav-link" href="/publications/">publications</a>
+          </li>
+          <li class="nav-item ">
 
-                <a class="nav-link" href="/experience/">experience</a>
-              </li>
-              <li class="nav-item ">
+            <a class="nav-link" href="/projects/">projects</a>
+          </li>
+          <li class="nav-item ">
 
-                <a class="nav-link" href="/photography/">gallery</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
+            <a class="nav-link" href="/experience/">experience</a>
+          </li>
+          <li class="nav-item ">
 
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/repositories/">repositories</a>
-                  <a class="dropdown-item" href="/recommendations/">recommendations</a>
-                </div>
-
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
-
+            <a class="nav-link" href="/photography/">gallery</a>
+          </li>
+          <!-- Toogle theme mode -->
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</header>
 
     <!-- Content -->
     <div class="container mt-5">
