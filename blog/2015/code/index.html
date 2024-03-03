@@ -67,6 +67,10 @@
               </li>
 
               
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blogs<span class="sr-only">(current)</span></a>
+              </li>
 
 <!-- 
               <li class="nav-item ">
@@ -150,19 +154,19 @@ All you have to do is wrap your code in markdown code tags:</p>
 <span class="p">```</span>
 </code></pre></div></div>
 
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">int</span> <span class="nf">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span> <span class="n">const</span> \<span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
 <span class="p">{</span>
     <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
 
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="sh">"</span><span class="s">input a string: </span><span class="sh">"</span><span class="p">;</span>
+    <span class="nf">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="nb">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="nf">length</span><span class="p">();</span>
 
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+    <span class="n">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="n">new</span> <span class="n">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
 
     <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="nf">for</span><span class="p">(</span><span class="nb">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="sh">"</span><span class="s"> </span><span class="sh">"</span><span class="p">;</span>
     <span class="p">}</span>
 
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
@@ -221,46 +225,6 @@ Produces something like this:</p>
   </article>
 
 
-  
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/importance-of-nlp/">Why do we need Natural Language Processing (NLP) ?</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/redirect/">a post with redirect</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/diagrams/">a post with diagrams</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/distill/">a distill-style blog post</a>
-  </li>
-
 </div>
 
     </div>
@@ -269,7 +233,7 @@ Produces something like this:</p>
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 Kamal  Shrestha (कमल श्रेष्ठ). Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
-Last updated: February 23, 2024.
+Last updated: March 03, 2024.
       </div>
     </footer>
 
