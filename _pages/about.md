@@ -12,14 +12,14 @@ profile:
     <p>MTech(TA) CSE'023 (9.06/10 CGPA), </p>
     <p><a href='https://iith.ac.in/'>Indian Institute of Technology Hyderabad (IITH) </a></p>
     <p>Hyderabad, Telangana, India</p>
-    <hr>
-    <p>Associate Machine Learning and Curriculum Engineer </p>
-    <p><a href='https://fusemachines.com'>Fusemachines Nepal</a></p>
-    <p>Kathmandu, Nepal</p>
-    <hr>
-    <p>BTech CSE'020 (92.30 %), </p>
-    <p><a href='https://ku.edu.np/'>Kathmandu University (KU)</a></p>
-    <p>Dhulikhel, Kavre, Nepal</p>
+  # <hr>
+  # <p>Associate Machine Learning and Curriculum Engineer </p>
+  # <p><a href='https://fusemachines.com'>Fusemachines Nepal</a></p>
+  # <p>Kathmandu, Nepal</p>
+  # <hr>
+  # <p>BTech CSE'020 (92.30 %), </p>
+  # <p><a href='https://ku.edu.np/'>Kathmandu University (KU)</a></p>
+  # <p>Dhulikhel, Kavre, Nepal</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -29,37 +29,18 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="text-align:justify;">
 
-I am currently working with <a href="https://www.bosch-softwaretechnologies.com/en/index.html">BOSCH Global Software Technology (BGSW)</a> as a Senior Applied Data Scientist since 17th August, 2023. Major part of my work focuses on working on a high-impact project centered on leveraging Large Language Models (LLM) that customize production-generated datasets and introduce interactive agents to streamline workflows, significantly enhancing operational efficiency.</p>
-
+I am currently working with <a href="https://www.bosch-softwaretechnologies.com/en/index.html">BOSCH Global Software Technology (BGSW)</a> at Research and Technology Center (RTC) India as a Senior Applied Research Engineer since 17th August, 2023. </p>
 <p style="text-align:justify;">
-I completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the prestigious<a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my thesis research endeavors in collaboration with <a href="https://www.swarajability.org/">Swarajability Platform - India's First Job Portal with AI for Persons with Disabilities</a>. 
-</p>
+Major part of my work focuses on working on a high-impact projects centered on leveraging Large Language Models (LLMs), open source as well as proprietary, that customize production-generated datasets and introduce interactive agents to streamline workflows, making business impacts and significantly enhancing operational efficiency.</p>
 
-<p style="text-align:justify;">Previously, I have also worked as an   Associate Machine Learning Engineer and Curriculum Engineer  at <a href="https://fusemachines.com">Fusemachines</a>, Nepal from July, 2020 till August 2021, under the supervision of <a href="https://www.linkedin.com/in/rojeshshikhrakar/">Rojesh Man Shikhakar</a>. </p>
-
-<p style="text-align:justify;">I received my undergraduate B. Tech in Computer Engineering from <a href="https://ku.edu.np">Kathmandu University (KU)</a> in 2020.
-I had a great time working with <a href="https://ku.edu.np/contact-detail/25">Prof. Dr. Prakash Poudyal</a> and <a href="https://ku.edu.np/contact-detail/48">Prof. Dr. Bal Krishna Bal</a> at KU.</p>
+<p> I spend most of my time finding, implementing and trying to catchup with new and exciting technologies. </p>
 
 
-
-<p style="text-align:justify;">
-In my spare time, I enjoy reading, cooking and travelling.</p>
+<a href="/intro"> Read more ...</a>
 
 
-<b><u>Summarising my academic and professional career</u>:</b>
 
-<ol style="padding-left:2px;  text-align:justify">
-<li>Possess a comprehensive theoretical and practical foundation in machine learning and natural language processing, combined with hands-on experience in research and experimental design methodologies.</li>
-<span style="display: block; margin-bottom: 0.5em"></span>
-<li>Proficient in executing the deep learning pipeline encompassing various stages such as data analysis, data
-cleaning, pre-processing, model design, training, and model evaluation, primarily utilizing PyTorch, Scikitlearn (Sklearn), OpenCV, and other scientific Python libraries to achieve optimal results.</li>
-<span style="display: block; margin-bottom: 0.5em"></span>
-<li>Demonstrate excellent teamwork, communication, and writing skills honed through previous industry experience, research publications, poster presentations, and teaching engagements</li>
-<span style="display: block; margin-bottom: 0.5em"></span>
-<li>Previously worked as an Associate Machine Learning Engineer, Curriculum Engineer and a Computer Science Instructor</li>
-<span style="display: block; margin-bottom: 0.5em"></span>
-<li><b><u>Research Interests</u></b>: Intersection of applied NLP, DL, and Classical ML Techniques</li>
-<span style="display: block; margin-bottom: 0.5em"></span>
+
 <!-- <li><b>Previous Projects:</b> -->
 
 <!-- <ol style="padding-left:25px; padding-top:10px">
@@ -76,6 +57,8 @@ cleaning, pre-processing, model design, training, and model evaluation, primaril
 <blockquote style="margin-left:0px">
 <h5>Please find my resume <a href="{{site.cv}}">here</a>.</h5>
 </blockquote>
+
+
 
 <!-- <p style="text-align:justify;">
 I have recently completed my two-year Master of Technology (MTech) program offered by the Department of <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at the <a href="https://iith.ac.in/" target="_blank"> Indian Institute of Technology Hyderabad (IITH)</a>. I worked under the supervision of <a href="https://people.iith.ac.in/maunendra/index.html">Dr. Maunendra Sankar Desarkar</a> as part of my research endeavors. 

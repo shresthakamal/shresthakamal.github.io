@@ -121,7 +121,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: kamalshrestha # blog_name will be displayed in your blog page
-blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title:  blogs # your blog must have a title for it to be displayed in the nav bar
 blog_description: Learn and grow with me
 permalink: /blog/:year/:title/
 
@@ -252,7 +252,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['nlp', 'dl', 'chat-gpt', 'cv', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['rag', 'llm', 'langchain', 'nlp', 'dl', 'openai', 'cv', 'code'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
