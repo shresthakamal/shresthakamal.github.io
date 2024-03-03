@@ -9,9 +9,8 @@ profile:
   image: about.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>MTech(TA) CSE'023 (9.06/10 CGPA), </p>
-    <p><a href='https://iith.ac.in/'>Indian Institute of Technology Hyderabad (IITH) </a></p>
-    <p>Hyderabad, Telangana, India</p>
+    
+
   # <hr>
   # <p>Associate Machine Learning and Curriculum Engineer </p>
   # <p><a href='https://fusemachines.com'>Fusemachines Nepal</a></p>
@@ -52,7 +51,7 @@ Major part of my work focuses on working on a high-impact projects centered on l
 </ol> -->
 
 
-<span style="display: block; margin-bottom: 3em"></span>
+<span style="display: block; margin-bottom: 1em"></span>
 
 <blockquote style="margin-left:0px">
 <h5>Please find my resume <a href="{{site.cv}}">here</a>.</h5>
