@@ -37,9 +37,7 @@
 {%- if site.mastodon_username -%}
 <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
 {% endif %}
-{%- if site.medium_username -%}
-<a href="https://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fab fa-medium"></i></a>
-{% endif %}
+
 {%- if site.quora_username -%}
 <a href="https://www.quora.com/profile/{{ site.quora_username }}" title="Quora"><i class="fab fa-quora"></i></a>
 {% endif %}
@@ -107,5 +105,8 @@
 <a href="{{ site.calendly}}" title="Schedule Meeting"><i class="fa fa-phone"></i></a>
 {% endif %}
 {%- if site.coffee -%}
-<a href="{{ site.coffee}}" title="Schedule Meeting"><i class="fa fa-coffee"></i></a>
+<a href="{{ site.coffee}}" title="Buy me a coffee"><i class="fa fa-coffee"></i></a>
+{% endif %}
+{%- if site.medium_username -%}
+<a href="https://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fab fa-medium"></i></a>
 {% endif %}
