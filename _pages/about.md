@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "I live by 'Discipline Equals Freedom'"
+subtitle: "Discipline Equals Freedom"
 
 profile:
   align: right
