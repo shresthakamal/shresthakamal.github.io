@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://shresthakamal.com.np/feed.xml" rel="self" type="application/atom+xml" /><link href="https://shresthakamal.com.np/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-03-03T19:42:02+00:00</updated><id>https://shresthakamal.com.np/feed.xml</id><title type="html">blank</title><subtitle>I work in the intersection of ML, DL, NLP and some CV.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://shresthakamal.com.np/feed.xml" rel="self" type="application/atom+xml" /><link href="https://shresthakamal.com.np/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-03-21T03:41:34+00:00</updated><id>https://shresthakamal.com.np/feed.xml</id><title type="html">blank</title><subtitle>I work in the intersection of ML, DL, NLP and some CV.
 </subtitle><entry><title type="html">Creating RAG application using Langgraph</title><link href="https://shresthakamal.com.np/blog/2024/code/" rel="alternate" type="text/html" title="Creating RAG application using Langgraph" /><published>2024-03-01T15:09:00+00:00</published><updated>2024-03-01T15:09:00+00:00</updated><id>https://shresthakamal.com.np/blog/2024/code</id><content type="html" xml:base="https://shresthakamal.com.np/blog/2024/code/"><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
 <ol>
   <li>Good Knowledge on langchain, creating agents used for multiple tools selections</li>
@@ -53,9 +53,9 @@ Agents developed within langgraph will possess the capability to make decisions,
 4
 5
 6
-</pre></td><td class="code"><pre>    <span class="n">import</span> <span class="n">os</span>
+</pre></td><td class="code"><pre>    <span class="k">import</span> <span class="n">os</span>
 
-    <span class="n">from</span> <span class="n">dotenv</span> <span class="n">import</span> <span class="n">load_dotenv</span><span class="p">,</span> <span class="n">find_dotenv</span>
+    <span class="n">from</span> <span class="n">dotenv</span> <span class="k">import</span> <span class="n">load_dotenv</span><span class="p">,</span> <span class="n">find_dotenv</span>
 
     <span class="cp"># read local .env file
 </span>    <span class="n">_</span> <span class="o">=</span> <span class="n">load_dotenv</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">())</span>
@@ -106,10 +106,10 @@ Agents developed within langgraph will possess the capability to make decisions,
 32
 33
 </pre></td><td class="code"><pre>    <span class="cp"># necessary imports
-</span>    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">text_splitter</span> <span class="n">import</span> <span class="n">RecursiveCharacterTextSplitter</span>
-    <span class="n">from</span> <span class="n">langchain_community</span><span class="p">.</span><span class="n">document_loaders</span> <span class="n">import</span> <span class="n">WebBaseLoader</span>
-    <span class="n">from</span> <span class="n">langchain_community</span><span class="p">.</span><span class="n">vectorstores</span> <span class="n">import</span> <span class="n">Chroma</span>
-    <span class="n">from</span> <span class="n">langchain_openai</span> <span class="n">import</span> <span class="n">OpenAIEmbeddings</span>
+</span>    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">text_splitter</span> <span class="k">import</span> <span class="n">RecursiveCharacterTextSplitter</span>
+    <span class="n">from</span> <span class="n">langchain_community</span><span class="p">.</span><span class="n">document_loaders</span> <span class="k">import</span> <span class="n">WebBaseLoader</span>
+    <span class="n">from</span> <span class="n">langchain_community</span><span class="p">.</span><span class="n">vectorstores</span> <span class="k">import</span> <span class="n">Chroma</span>
+    <span class="n">from</span> <span class="n">langchain_openai</span> <span class="k">import</span> <span class="n">OpenAIEmbeddings</span>
 
     <span class="cp"># data sources
 </span>    <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span>
@@ -156,7 +156,7 @@ Agents developed within langgraph will possess the capability to make decisions,
 12
 13
 14
-</pre></td><td class="code"><pre>    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">tools</span><span class="p">.</span><span class="n">retriever</span> <span class="n">import</span> <span class="n">create_retriever_tool</span>
+</pre></td><td class="code"><pre>    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">tools</span><span class="p">.</span><span class="n">retriever</span> <span class="k">import</span> <span class="n">create_retriever_tool</span>
 
     <span class="cp"># Tool Definition with the name of the tool and its description
 </span>    <span class="n">tool</span> <span class="o">=</span> <span class="n">create_retriever_tool</span><span class="p">(</span>
@@ -167,7 +167,7 @@ Agents developed within langgraph will possess the capability to make decisions,
 
     <span class="n">tools</span> <span class="o">=</span> <span class="p">[</span><span class="n">tool</span><span class="p">]</span>
 
-    <span class="n">from</span> <span class="n">langgraph</span><span class="p">.</span><span class="n">prebuilt</span> <span class="n">import</span> <span class="n">ToolExecutor</span>
+    <span class="n">from</span> <span class="n">langgraph</span><span class="p">.</span><span class="n">prebuilt</span> <span class="k">import</span> <span class="n">ToolExecutor</span>
     <span class="n">tool_executor</span> <span class="o">=</span> <span class="n">ToolExecutor</span><span class="p">(</span><span class="n">tools</span><span class="p">)</span>
     <span class="cp"># tool_executor that can be called with agent</span>
 </pre></td></tr></tbody></table></code></pre></figure>
@@ -193,10 +193,10 @@ Agents developed within langgraph will possess the capability to make decisions,
 9
 10
 11
-</pre></td><td class="code"><pre>    <span class="n">import</span> <span class="k">operator</span>
-    <span class="n">from</span> <span class="n">typing</span> <span class="n">import</span> <span class="n">Annotated</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">TypedDict</span>
+</pre></td><td class="code"><pre>    <span class="k">import</span> <span class="k">operator</span>
+    <span class="n">from</span> <span class="n">typing</span> <span class="k">import</span> <span class="n">Annotated</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">TypedDict</span>
 
-    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">messages</span> <span class="n">import</span> <span class="n">BaseMessage</span>
+    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">messages</span> <span class="k">import</span> <span class="n">BaseMessage</span>
 
 
     <span class="k">class</span> <span class="nc">AgentState</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">)</span><span class="o">:</span>
@@ -222,17 +222,17 @@ Agents developed within langgraph will possess the capability to make decisions,
 9
 10
 11
-</pre></td><td class="code"><pre>    <span class="n">from</span> <span class="n">langchain</span> <span class="n">import</span> <span class="n">hub</span>
-    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">output_parsers</span> <span class="n">import</span> <span class="n">PydanticOutputParser</span>
-    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">prompts</span> <span class="n">import</span> <span class="n">PromptTemplate</span>
-    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">tools</span><span class="p">.</span><span class="n">render</span> <span class="n">import</span> <span class="n">format_tool_to_openai_function</span>
-    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">function_calling</span> <span class="n">import</span> <span class="n">convert_to_openai_tool</span>
-    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">messages</span> <span class="n">import</span> <span class="n">BaseMessage</span><span class="p">,</span> <span class="n">FunctionMessage</span>
-    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">output_parsers</span><span class="p">.</span><span class="n">openai_tools</span> <span class="n">import</span> <span class="n">PydanticToolsParser</span>
-    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">pydantic_v1</span> <span class="n">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">Field</span>
-    <span class="n">from</span> <span class="n">langchain_openai</span> <span class="n">import</span> <span class="n">ChatOpenAI</span>
-    <span class="n">from</span> <span class="n">langgraph</span><span class="p">.</span><span class="n">prebuilt</span> <span class="n">import</span> <span class="n">ToolInvocation</span>
-    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">output_parsers</span> <span class="n">import</span> <span class="n">StrOutputParser</span>
+</pre></td><td class="code"><pre>    <span class="n">from</span> <span class="n">langchain</span> <span class="k">import</span> <span class="n">hub</span>
+    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">output_parsers</span> <span class="k">import</span> <span class="n">PydanticOutputParser</span>
+    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">prompts</span> <span class="k">import</span> <span class="n">PromptTemplate</span>
+    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">tools</span><span class="p">.</span><span class="n">render</span> <span class="k">import</span> <span class="n">format_tool_to_openai_function</span>
+    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">function_calling</span> <span class="k">import</span> <span class="n">convert_to_openai_tool</span>
+    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">messages</span> <span class="k">import</span> <span class="n">BaseMessage</span><span class="p">,</span> <span class="n">FunctionMessage</span>
+    <span class="n">from</span> <span class="n">langchain</span><span class="p">.</span><span class="n">output_parsers</span><span class="p">.</span><span class="n">openai_tools</span> <span class="k">import</span> <span class="n">PydanticToolsParser</span>
+    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">pydantic_v1</span> <span class="k">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">Field</span>
+    <span class="n">from</span> <span class="n">langchain_openai</span> <span class="k">import</span> <span class="n">ChatOpenAI</span>
+    <span class="n">from</span> <span class="n">langgraph</span><span class="p">.</span><span class="n">prebuilt</span> <span class="k">import</span> <span class="n">ToolInvocation</span>
+    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">output_parsers</span> <span class="k">import</span> <span class="n">StrOutputParser</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
 <h4 id="agent-node">agent node</h4>
@@ -723,7 +723,7 @@ Agents developed within langgraph will possess the capability to make decisions,
 40
 41
 42
-</pre></td><td class="code"><pre>    <span class="n">from</span> <span class="n">langgraph</span><span class="p">.</span><span class="n">graph</span> <span class="n">import</span> <span class="n">END</span><span class="p">,</span> <span class="n">StateGraph</span>
+</pre></td><td class="code"><pre>    <span class="n">from</span> <span class="n">langgraph</span><span class="p">.</span><span class="n">graph</span> <span class="k">import</span> <span class="n">END</span><span class="p">,</span> <span class="n">StateGraph</span>
 
     <span class="cp"># Define a new graph
 </span>    <span class="n">workflow</span> <span class="o">=</span> <span class="n">StateGraph</span><span class="p">(</span><span class="n">AgentState</span><span class="p">)</span>
@@ -779,8 +779,8 @@ Agents developed within langgraph will possess the capability to make decisions,
 8
 9
 10
-</pre></td><td class="code"><pre>    <span class="n">import</span> <span class="n">pprint</span>
-    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">messages</span> <span class="n">import</span> <span class="n">HumanMessage</span>
+</pre></td><td class="code"><pre>    <span class="k">import</span> <span class="n">pprint</span>
+    <span class="n">from</span> <span class="n">langchain_core</span><span class="p">.</span><span class="n">messages</span> <span class="k">import</span> <span class="n">HumanMessage</span>
 
     <span class="n">inputs</span> <span class="o">=</span> <span class="p">{</span><span class="s">"messages"</span><span class="o">:</span> <span class="p">[</span><span class="n">HumanMessage</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="s">"Tell me about langgraph"</span><span class="p">)]}</span>
     <span class="k">for</span> <span class="n">output</span> <span class="n">in</span> <span class="n">app</span><span class="p">.</span><span class="n">stream</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span><span class="o">:</span>
